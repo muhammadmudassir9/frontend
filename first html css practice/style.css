@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: whitesmoke;
+
+}
+body{
+    font-family: "poppins", sans-serif;
+}
+h1{
+    font-weight: 800;
+    font-size: 36px;
+    margin: 16px;
+
+}
+h2{
+    font-weight: 800;
+    font-size: 24px;
+    margin: 16px;
+
+}
+p{
+    font-weight: 400;
+    font-size: 14px;
+    margin: 16px;
+
+}
+img{
+    width: 100%;
+    height: auto;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    align-items: center;
+    margin: auto;
+}
+section{
+    padding: 100px 0;
+}
+header{
+    
+    height: 100vh;
+    background-image: url(images/comunicacio_960x810.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.logo h1{
+    color: black;
+    margin: 0%;
+    padding: 2%;
+}
+nav{
+    padding: 2px;
+    display: flex;
+    justify-content: space-between;
+
+}
+nav ul li{
+    
+    display: inline-block;
+    margin: auto;
+    padding: 15px;  
+}
+nav ul li a:hover{
+    color: red;
+    transition: 1s;
+}
