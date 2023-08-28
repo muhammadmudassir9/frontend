@@ -1,0 +1,92 @@
+body{
+    font-family: 'Bebas Neue', cursive;
+    color: whitesmoke;
+    margin: 0px;
+    padding: 0px;
+    background-image: url(../images/bg.jpg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.left{
+    position: absolute;
+    top: 27px;
+    left: 22px;
+    display: inline-block;
+}
+.left img{
+    height: 80px;
+    width: 100px;
+}
+.left div{
+    background-color: black;
+    text-align: center;
+}
+.mid{
+    display: block;
+    width: 40%;
+    margin: 15px auto;
+}
+.right{
+    position: absolute;
+    right: 22px;
+    top: 27px;
+    display: inline-block;
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 20px;
+}
+.navbar li a{
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 15px 14px;
+}
+.navbar li a:hover,.navbar li a.active{
+text-decoration: underline;
+color: rgb(218, 192, 192);
+}
+.btn{
+    font-family: 'Bebas Neue', cursive;
+    margin: 0px 10px;
+    background-color: rgb(49, 47, 47);
+    color: whitesmoke;
+    padding: 4px 14px;  
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(136, 138, 139);
+    transition: 0.5s;
+}
+.container{
+    margin: 85px 70px;
+    padding: 30px;
+    width: 22%;
+    border-radius: 5px;
+}
+.form-group input{
+    font-family: 'Bebas Neue', cursive;
+    text-align: left;
+    display: block;
+    width: 270px;
+    padding: 10px;
+    border: 2px solid black;
+    margin: 5px 0px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+.container h1{
+    text-align: left;
+}
+.container button{
+    text-align: left;
+    margin: 15px 0px;
+}
+    
